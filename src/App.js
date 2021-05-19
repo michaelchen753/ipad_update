@@ -10,10 +10,10 @@ const [isHidden , setIsHidden]= useState(false);
 
   return (
     <div className="App container">
-    <Header isHidden={isHidden} data={data} toggle={()=>setIsHidden(!isHidden)}/>    
-      { 
-        !isHidden && <Slides content= {data[0].content } />
-      }         
+      <Header isHidden={isHidden} data={data} toggle={()=>setIsHidden(!isHidden)}/>    
+        { 
+          !isHidden && <Slides content= {data[0].content } />
+        }         
     </div>
   );
 }

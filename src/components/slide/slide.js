@@ -19,8 +19,7 @@ const Slide = ({description})=>{
             </div>                     
         </div>        
     </div> 
-    )
-                                
+    )                                
 }
 
 export default Slide;
